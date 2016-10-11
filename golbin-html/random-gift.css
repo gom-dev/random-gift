@@ -1,0 +1,68 @@
+
+#slots {
+    display: none;
+}
+
+.slot {
+    padding-top: 10px;
+    clear: both;
+}
+
+.label {
+    padding-top: 5px;
+    float: left;
+}
+
+.gift {
+    float: left;
+    margin: 0 10px 0 10px;
+}
+
+.gift input {
+    padding: 8px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.action {
+    float: left;
+}
+
+.action .spin-button {
+    margin-top: 5px;
+}
+
+.winner {
+    margin: 0 10px 0 10px;
+    padding: 5px;
+    font-size: 20px;
+    overflow: hidden;
+    width: 200px;
+    height: 20px;
+    border-bottom: 1px solid #ccc;
+    float: left;
+}
+
+.winner .wrapper {
+    width: 100px;
+}
+
+.winner .wrapper .entry {
+    height: 25px;
+}
+
+.winner .slot {
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+#add-entry {
+    display: none;
+    margin-top: 20px;
+}
